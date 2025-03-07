@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - GAQ Burger</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"><img src="../imagenes/logo-Gag.png" alt="Logotipo de la Empresa" width="500" height="500" class="logo"></a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html" class="activo">Productos</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="galeria">
+            <h1>Galería Gaqburger</h1>
+            <div class="grid-container">
+                <!-- Aquí añadiremos las imágenes de galeria  -->
+                <div class="grid-item"><img src="../imagenes/frente.jpg" width="1163" height="900" alt="fachada 1"></div>
+                <div class="grid-item"><img src="../imagenes/burger06.jpg" alt="cocinero 2" width="626" height="358"></div>
+                <div class="grid-item"><img src="../imagenes/food-truck.avif" alt="food-truck 3" width="626" height="418"></div>
+                <!-- Añadir más imagenes según sea necesario -->
+            </div>
+        </section>
+    <section id="categorias-menu">
+        <h1>🍔 Nuestro Menú</h1>
+        
+        <!-- Sección Hamburguesas Clásicas -->
+        <div class="categoria">
+            <h2>Hamburguesas Clásicas</h2>
+            <div class="grid-container">
+                <div class="grid-item" id="burger1">
+                    <a href="#burger1">
+                        <img src="../imagenes/burger1.avif" alt="Hamburguesa Clásica" width="468" height="626">
+                    </a>
+                    <a href="#" class="cerrar">×</a>
+                    <div class="producto-info">
+                        <h3>Clásica</h3>
+                        <span class="precio">7,99 €</span>
+                        <div class="ingredientes">
+                            <span class="tag">🥩 Carne de Ternera</span>
+                            <span class="tag">🧀 Queso</span>
+                            <span class="tag">🥬 Lechuga</span>
+                        </div>
+                        <p class="descripcion">Nuestra hamburguesa tradicional, jugosa y sabrosa.</p>
+                    </div>
+                </div>
+                <!-- Más hamburguesas clásicas... -->
+            </div>
+        </div>
+
+        <!-- Sección Doble Carne -->
+        <div class="categoria">
+            <h2>Doble Impacto</h2>
+            <div class="grid-container">
+                <div class="grid-item" id="burger2">
+                    <a href="#burger2">
+                        <img src="../imagenes/burger2.avif" alt="Doble Hamburguesa" width="2000" height="2000">
+                    </a>
+                    <a href="#" class="cerrar">×</a>
+                    <div class="producto-info">
+                        <h3>La Doble</h3>
+                        <span class="precio">11,99 €</span>
+                        <div class="ingredientes">
+                            <span class="tag">🥩 Doble Carne</span>
+                            <span class="tag">🧀 Doble Queso</span>
+                            <span class="tag">🥓 Bacon</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más hamburguesas dobles... -->
+            </div>
+        </div>
+
+        <!-- Sección Especiales -->
+        <div class="categoria">
+            <h2>Especiales del Chef</h2>
+            <div class="grid-container">
+                <div class="grid-item" id="burger3">
+                    <a href="#burger3">
+                        <img src="../imagenes/burger01.jpg" alt="Hamburguesa Especial" width="430" height="626">
+                    </a>
+                    <a href="#" class="cerrar">×</a>
+                    <div class="producto-info">
+                        <h3>La Gourmet</h3>
+                        <span class="precio">13,99 €</span>
+                        <div class="ingredientes">
+                            <span class="tag">🥩 Wagyu</span>
+                            <span class="tag">🧀 Queso Brie</span>
+                            <span class="tag">🍄 Champiñones</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más hamburguesas especiales... -->
+            </div>
+        </div>
+
+        <!-- Sección Vegetarianas -->
+        <div class="categoria">
+            <h2>Vegetarianas</h2>
+            <div class="grid-container">
+                <div class="grid-item" id="burger4">
+                    <a href="#burger4">
+                        <img src="../imagenes/burger03.jpg" alt="Hamburguesa Vegetariana" width="1080" height="1080">
+                    </a>
+                    <a href="#" class="cerrar">×</a>
+                    <div class="producto-info">
+                        <h3>La Verde</h3>
+                        <span class="precio">9,99 €</span>
+                        <div class="ingredientes">
+                            <span class="tag">🌱 Beyond Meat</span>
+                            <span class="tag">🥑 Aguacate</span>
+                            <span class="tag">🍅 Tomate</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más hamburguesas vegetarianas... -->
+            </div>
+        </div>
+
+        <!-- Sección Arma tu Combo -->
+        <div class="categoria combo-section">
+            <h2>🛠️ Arma tu Combo</h2>
+            <div class="combo-container">
+                <div class="combo-option">
+                    <h3>Combo Básico</h3>
+                    <ul>
+                        <li>Hamburguesa Clásica</li>
+                        <li>Patatas + Refresco</li>
+                        <li>9,99 €</li>
+                    </ul>
+                </div>
+                <div class="combo-option">
+                    <h3>Combo Doble</h3>
+                    <ul>
+                        <li>Hamburguesa Doble</li>
+                        <li>Patatas + Refresco XL</li>
+                        <li>13,99 €</li>
+                    </ul>
+                </div>
+                <div class="combo-option">
+                    <h3>Combo Familiar</h3>
+                    <ul>
+                        <li>4 Hamburguesas</li>
+                        <li>2 Patatas Grandes</li>
+                        <li>4 Refrescos</li>
+                        <li>29,99 €</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer>
+        <p>&copy; 2025 GAQ Burger. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>Avenida Siempre Viva 123 | Aviso Legal</p>
+    </footer>
+</body>
+</html>
